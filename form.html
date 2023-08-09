@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+
+    <form>
+      <fieldset>
+        <legend>Your Details</legend>
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" />
+
+        <label for="surname">Surname:</label>
+        <input id="surname" type="text" />
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" />
+
+        <label for="mobile">Mobile:</label>
+        <input id="mobile" type="text" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Your Progress</legend>
+
+        <label for="mortgage">Are you mortgage approved?</label>
+        <select id="mortgage" name="mortgage">
+          <option>Yes I'm fully ready to go</option>
+          <option>I have approval in principal</option>
+          <option>No</option>
+        </select>
+
+        <label for="planning">Do you have planning permession?</label>
+        <select id="planning" name="planning">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+
+        <!--Add more questions for new buyers here-->
+      </fieldset>
+
+      <br />
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
