@@ -1,4 +1,30 @@
-header {background-color: #dfd2c3;}
+* {background-color: #dfd2c3;}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:stretch;
+    /*flex-wrap: nowrap;*/
+    min-height: 100vh;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    background-color: #dfd2c3;  
+}
 
 main {background-color: #dfd2c3;}
 
