@@ -93,7 +93,7 @@ article section h2 {
     font-size: x-large;
 }
 
-article section p {
+#about {
     text-align: center;
     color: #898974;
     font-size: large;
@@ -103,6 +103,9 @@ aside p {
     color: #ddc41c;
 
 } 
+
+/* Info-Page Styles */
+
 /* Form Styles
 .form-contact {
     display:flex;
