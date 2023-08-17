@@ -10,6 +10,7 @@ body {
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
     margin: 0;
+    height: 100%;
 }
 
 /* Header */
@@ -67,8 +68,14 @@ header {
 
 main {
     background-color: #dfd2c3;
-
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 article h1 {
     text-align: center;
     color: #898974;
@@ -99,8 +106,9 @@ aside p {
 #contact-img {}
         */
 
-/*
+
 footer {
     background-color: #898974;
-    display: flex;}
-*/
+    padding: 20px;
+    display : flex;
+}
