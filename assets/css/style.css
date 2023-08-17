@@ -9,12 +9,14 @@ Main styles */
 body {
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
-    background: url("assets/images/keys.jpg") no-repeat center/cover;
+    margin: 0;
+    background: url("assets/images/keys2.jpg") no-repeat center/cover;
 }
 
 header {
     background-color: #dfd2c3;
 }
+
 
 /* Logo Styles*/
 .logo {
