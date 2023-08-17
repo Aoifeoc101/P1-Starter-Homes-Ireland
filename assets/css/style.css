@@ -10,17 +10,25 @@ body {
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
     margin: 0;
-    background: url("assets/images/keys2.jpg") no-repeat center/cover;
 }
 
+/* Header */
 header {
     background-color: #dfd2c3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
+/* Main Background Picture*/
+#keys {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
 
 /* Logo Styles*/
 .logo {
-    display: flex;
     width: 100px;
     height: 100px;
     padding:5px;
@@ -36,8 +44,6 @@ header {
 #tagline {
     padding:5px;
     color: #898974;
-    display: flex;
-    justify-content:flex-start;
 }
 
 /* Button Container Styles*/
@@ -61,7 +67,7 @@ header {
 
 main {
     background-color: #dfd2c3;
-    display:flex;
+
 }
 article h1 {
     text-align: center;
