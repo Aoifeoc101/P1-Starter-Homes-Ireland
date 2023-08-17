@@ -9,6 +9,7 @@ Main styles */
 body {
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
+    background: url("assets/images/keys.jpg") no-repeat center/cover;
 }
 
 header {
@@ -34,7 +35,7 @@ header {
     padding:5px;
     color: #898974;
     display: flex;
-    justify-content:first baseline;
+    justify-content:flex-start;
 }
 
 /* Button Container Styles*/
@@ -58,6 +59,7 @@ header {
 
 main {
     background-color: #dfd2c3;
+    display:flex;
 }
 article h1 {
     text-align: center;
@@ -76,16 +78,21 @@ article section p {
     font-size: large;
 }
 
-#find {
-    color: #ddc41c;
-    font-size: large;
-}
-
 aside p {
     color: #ddc41c;
 
 } 
+/* Form Styles
+.form-contact {
+    display:flex;
+    min-width: 100%;
+}
 
+#contact-img {}
+        */
+
+/*
 footer {
     background-color: #898974;
-}
+    display: flex;}
+*/
