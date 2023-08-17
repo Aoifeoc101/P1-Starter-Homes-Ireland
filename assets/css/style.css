@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     margin: 0;
     height: 100%;
+    display: block;
 }
 
 /* Header */
@@ -20,13 +21,72 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
 }
+   /* Main Content*/
+   .wrapper {
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+   }
+
+   .container {
+       flex: 1;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+
+
+   main {
+       background-color: #dfd2c3;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+#main-head {
+    
+}
+.home-content {
+
+   }
 
 /* Main Background Picture*/
-#keys {
+.keys {
     display: block;
     width: 100%;
     height: 100vh;
 }
+   article h1,
+   h2 {
+       text-align: center;
+       color: #ddc41c;
+       font-size: xx-large;
+   }
+
+   article h3 {
+       text-align: center;
+       color: #898974;
+       font-size: x-large;
+   }
+
+   article p {
+       text-align: center;
+   }
+
+   .about-us {
+       text-align: center;
+       color: #898974;
+       font-size: x-large;
+   }
+
+   #about {
+       text-align: center;
+       color: #898974;
+       font-size: large;
+   }
+
+
 
 /* Logo Styles*/
 .logo {
@@ -64,56 +124,7 @@ header {
     color: #898974;
     }
 
-    /* Main Content*/
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-.container {
-    flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-}
-
-main {
-    background-color: #dfd2c3;
-}
-
-article h1, h2 {
-    text-align: center;
-    color: #ddc41c;
-    font-size:xx-large;
-}
-
-article h3 {
-    text-align: center;
-    color: #898974;
-    font-size: x-large;
-}
-
-article p {
-    text-align: center;
-}
-
-.about-us {
-    text-align: center;
-    color: #898974;
-    font-size: x-large;
-}
-
-#about {
-    text-align: center;
-    color: #898974;
-    font-size: large;
-}
-
-aside p {
-    color: #ddc41c;
-
-} 
+ 
 
 /* Bluebell Styles */
 #bluebell-head {
