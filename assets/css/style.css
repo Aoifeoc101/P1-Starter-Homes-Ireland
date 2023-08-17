@@ -82,12 +82,23 @@ main {
     background-color: #dfd2c3;
 }
 
-article h1 {
+article h1, h2 {
     text-align: center;
-    color: #898974;
+    color: #ddc41c;
     font-size:xx-large;
 }
-article section h2 {
+
+article h3 {
+    text-align: center;
+    color: #898974;
+    font-size: x-large;
+}
+
+article p {
+    text-align: center;
+}
+
+.about-us {
     text-align: center;
     color: #898974;
     font-size: x-large;
@@ -104,6 +115,12 @@ aside p {
 
 } 
 
+/* Bluebell Styles */
+#bluebell-head {
+    text-align: left;
+    color: #898974;
+    font-size: xx-large;
+}
 /* Info-Page Styles */
 
 /* Form Styles
@@ -114,6 +131,9 @@ aside p {
 
 #contact-img {}
         */
+
+/* Hidden*/
+.hidden {display:none;}
 
 
 footer {
