@@ -65,15 +65,21 @@ header {
     }
 
     /* Main Content*/
-
-main {
-    background-color: #dfd2c3;
-}
-
-.container {
+.wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+.container {
+    flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+main {
+    background-color: #dfd2c3;
 }
 
 article h1 {
@@ -111,4 +117,17 @@ footer {
     background-color: #898974;
     padding: 20px;
     display : flex;
+}
+
+footer div {
+    background-color: #898974;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: #ddc41c;
+}
+
+footer div a{
+    color: #ddc41c;
+    background-color: #898974;
 }
