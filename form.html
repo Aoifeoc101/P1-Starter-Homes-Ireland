@@ -32,16 +32,16 @@
       <fieldset>
         <legend>Your Details</legend>
         <label for="firstname">First Name:</label>
-        <input id="firstname" type="text">
+        <input id="firstname" type="text" required>
 
         <label for="surname">Surname:</label>
-        <input id="surname" type="text">
+        <input id="surname" type="text" required>
 
         <label for="email">Email:</label>
-        <input id="email" type="email">
+        <input id="email" type="email" required>
 
         <label for="mobile">Mobile:</label>
-        <input id="mobile" type="text">
+        <input id="mobile" type="text" required>
       </fieldset>
       <br>
       <fieldset>
@@ -53,16 +53,24 @@
           <option>I have approval in principal</option>
           <option>No</option>
         </select>
-
+<br>
         <label for="planning">Do you have planning permession?</label>
         <select id="planning" name="planning">
           <option>Yes</option>
           <option>No</option>
         </select>
-
+<br>
+<label for="budget">What's your budget?</label>
+<select id="budget" name="budget">
+    <option>&euro;100,000 - &euro;150,000</option>
+    <option>&euro;150,000 - &euro;200,000</option>
+    <option>&euro;200,000 - &euro;250,000</option>
+    <option>&euro;300,000 +</option>
+</select>
         <!--Add more questions for new buyers here-->
       </fieldset>
-
+      <label for="your-message">Your message</label>
+<textarea id="your-message" name="your-message" cols="50" rows="10"></textarea>
       <br>
 
       <input type="submit">
