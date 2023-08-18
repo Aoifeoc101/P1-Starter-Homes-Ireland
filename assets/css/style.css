@@ -30,6 +30,7 @@ body {
        flex-direction: column;
        align-items: center;
        justify-content: center;
+       width: 100%;
    }
 
 
@@ -110,14 +111,15 @@ body {
     color: #898974;
     }
 
- 
-
 /* Bluebell Styles */
 #bluebell-head {
     text-align: left;
     color: #898974;
     font-size: xx-large;
 }
+
+video {width: 100%}
+
 /* Info-Page Styles */
 
 /* Form Styles
