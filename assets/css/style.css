@@ -112,6 +112,11 @@ video {
     width: 100%
 }
 
+form {
+    flex-basis: auto;
+
+}
+
 /* Hidden*/
 .hidden {
     display: none;
@@ -137,3 +142,18 @@ footer div a {
     color: #ddc41c;
     background-color: #43432c;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 1000px) {
+
+    .home-pic {
+        width: 900px;    
+    }
+
+    #contact-img img {
+        width: 800px;
+    }
+}
+
+
