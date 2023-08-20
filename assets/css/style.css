@@ -10,16 +10,19 @@ Main styles */
     text-align: center;
     color: #ffff00;
     font-size: xx-large;
+    padding: 10px;
 }
 .heading2 {
     text-align: center;
     color: #ffff00;
     font-size: x-large;
+    padding: 7px;
 }
 .heading3 {
     text-align: center;
     color: #ffff00;
     font-size: large;
+    padding: 4px;
 }
 .text-center {
     text-align: center;
@@ -97,12 +100,8 @@ body {
 
 video {width: 100%}
 
-/* Info-Page Styles */
-
-
 /* Hidden*/
 .hidden {display:none;}
-
 
 /* Footer */
 footer {
