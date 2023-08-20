@@ -1,8 +1,11 @@
 /* 
 Main styles */
 * {
-    background-color: #dfd2c3;
     margin: 0;
+}
+
+.background-color {
+    background-color: #dfd2c3;
 }
 
 body {
@@ -33,11 +36,6 @@ body {
        width: 100%;
    }
 
-
-   main {
-       background-color: #dfd2c3;
-   }
-
 /* Main Background Picture*/
 .keys {
     display: block;
@@ -47,13 +45,12 @@ body {
    article h1,
    h2 {
        text-align: center;
-       color: #ddc41c;
+       color: #ffff00;
        font-size: xx-large;
    }
 
    article h3 {
        text-align: center;
-       color: #898974;
        font-size: x-large;
    }
 
@@ -63,13 +60,11 @@ body {
 
    .about-us {
        text-align: center;
-       color: #898974;
        font-size: x-large;
    }
 
    #about {
        text-align: center;
-       color: #898974;
        font-size: large;
    }
 
@@ -91,7 +86,6 @@ body {
 
 #tagline {
     padding:5px;
-    color: #898974;
 }
 
 /* Button Container Styles*/
@@ -114,7 +108,6 @@ body {
 /* Bluebell Styles */
 #bluebell-head {
     text-align: left;
-    color: #898974;
     font-size: xx-large;
 }
 
