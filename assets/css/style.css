@@ -6,7 +6,6 @@ Main styles */
 .background-color {
     background-color: #dfd2c3;
 }
-
 .heading1 {
     text-align: center;
     color: #ffff00;
@@ -22,11 +21,15 @@ Main styles */
     color: #ffff00;
     font-size: large;
 }
+.text-center {
+    text-align: center;
+}
 body {
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
     margin: 0;
     display: block;
+    text-align: center;
 }
 
 .flex {
@@ -56,22 +59,6 @@ body {
     width: 100%;
     height: auto;
 }
-
-   article p {
-       text-align: center;
-   }
-
-   .about-us {
-       text-align: center;
-       font-size: x-large;
-   }
-
-   #about {
-       text-align: center;
-       font-size: large;
-   }
-
-
 
 /* Logo Styles*/
 .logo {
@@ -108,33 +95,21 @@ body {
     color: #898974;
     }
 
-/* Bluebell Styles */
-#bluebell-head {
-    text-align: left;
-    font-size: xx-large;
-}
-
 video {width: 100%}
 
 /* Info-Page Styles */
 
-/* Form Styles
-.form-contact {
-    display:flex;
-    min-width: 100%;
-}
-
-#contact-img {}
-        */
 
 /* Hidden*/
 .hidden {display:none;}
 
 
+/* Footer */
 footer {
     background-color: #898974;
     padding: 20px;
     display : flex;
+    text-align: left;
 }
 
 footer div {
