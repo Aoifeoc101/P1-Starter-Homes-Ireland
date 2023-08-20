@@ -11,18 +11,18 @@ main {
 }
 
 .heading1 {
-    color: #ddc41c;
+    color: #a79100;
     font-size: xx-large;
     padding: 10px;
     text-align: center;
 }
 .heading2 {
-    color: #ddc41c;
+    color: #a79100;
     font-size: x-large;
     padding: 7px;
 }
 .heading3 {
-    color: #ddc41c;
+    color: #a79100;
     font-size: large;
     padding: 4px;
     text-align: left;
