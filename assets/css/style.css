@@ -3,30 +3,38 @@ Main styles */
 * {
     margin: 0;
 }
+
 .background-color {
     background-color: #dfd2c3;
 }
+
 .heading1 {
     text-align: center;
     color: #ffff00;
     font-size: xx-large;
     padding: 10px;
 }
+
 .heading2 {
     text-align: center;
     color: #ffff00;
     font-size: x-large;
     padding: 7px;
 }
+
 .heading3 {
     text-align: center;
     color: #ffff00;
     font-size: large;
     padding: 4px;
 }
+
 .text-center {
     text-align: center;
+    color: #898974;
+    padding: 10px;
 }
+
 body {
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
@@ -39,21 +47,22 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
-   /* Main Content*/
-   .wrapper {
-       display: flex;
-       flex-direction: column;
-       min-height: 100vh;
-   }
 
-   .container {
-       flex: 1;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-       width: 100%;
-   }
+/* Main Content*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 /* Main Background Picture*/
 .keys {
@@ -66,7 +75,7 @@ body {
 .logo {
     width: 100px;
     height: 100px;
-    padding:5px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
@@ -77,7 +86,7 @@ body {
 }
 
 #tagline {
-    padding:5px;
+    padding: 5px;
     text-align: left;
 }
 
@@ -85,29 +94,33 @@ body {
 .button-container {
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items: flex-end;
 }
 
 .button-container a {
-    display:block;
+    display: block;
     padding: 5px;
     border: 5px ridge #898974;
     margin: 10px;
     font-size: 20px;
     background-color: #fff5ea;
     color: #898974;
-    }
+}
 
-video {width: 100%}
+video {
+    width: 100%
+}
 
 /* Hidden*/
-.hidden {display:none;}
+.hidden {
+    display: none;
+}
 
 /* Footer */
 footer {
     background-color: #898974;
     padding: 20px;
-    display : flex;
+    display: flex;
     text-align: left;
 }
 
@@ -119,7 +132,7 @@ footer div {
     color: #ddc41c;
 }
 
-footer div a{
+footer div a {
     color: #ddc41c;
     background-color: #898974;
 }
