@@ -118,14 +118,14 @@ video {
 
 /* Footer */
 footer {
-    background-color: #898974;
+    background-color: #43432c;
     padding: 20px;
     display: flex;
     text-align: left;
 }
 
 footer div {
-    background-color: #898974;
+    background-color: #43432c;
     height: 100%;
     width: 100%;
     padding: 20px;
@@ -134,5 +134,5 @@ footer div {
 
 footer div a {
     color: #ddc41c;
-    background-color: #898974;
+    background-color: #43432c;
 }
