@@ -31,13 +31,13 @@
                 <article>
                     <h1 class="heading1">Contact Form</h1>
                     <!--Picture-->
-                    <div class="form-content">
+                    <div>
                         <picture id="contact-img">
                             <source srcset="assets/images/form2.jpg" media="(max-width: 600px)" />
                             <img src="assets/images/form.jpg" alt="picture of a blueprint and hammer" />
                         </picture>
                         <form>
-                            <fieldset>
+                            <fieldset class="list-text">
                                 <legend>Your Details</legend>
                                 <label for="firstname">First Name:</label>
                                 <input id="firstname" type="text" required />
@@ -52,7 +52,7 @@
                                 <input id="mobile" type="text" required />
                             </fieldset>
                             <br />
-                            <fieldset>
+                            <fieldset class="list-text">
                                 <legend>Your Progress</legend>
 
                                 <label for="mortgage">Are you mortgage approved?</label>
@@ -77,11 +77,11 @@
                                 </select>
                                 <!--Add more questions for new buyers here-->
                             </fieldset>
-                            <label for="your-message">Your message</label>
+                            <label for="your-message" class="list-text">Your message</label>
                             <textarea id="your-message" name="your-message" cols="50" rows="10"></textarea>
                             <br />
 
-                            <input type="submit" />
+                            <input class="list-text" type="submit" />
                         </form>
                     </div>
                 </article>
