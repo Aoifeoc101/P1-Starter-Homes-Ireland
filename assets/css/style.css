@@ -29,7 +29,6 @@ body {
     min-height: 100vh;
     margin: 0;
     display: block;
-    text-align: center;
 }
 
 .flex {
@@ -76,6 +75,7 @@ body {
 
 #tagline {
     padding:5px;
+    text-align: left;
 }
 
 /* Button Container Styles*/
