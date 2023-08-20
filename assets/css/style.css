@@ -28,11 +28,11 @@ main {
 }
 .text-center {
     text-align: center;
-    color: #898974;
+    color: #43432c;
     padding: 10px;
 }
 .list-text {
-    color: #898974;
+    color: #43432c;
 }
 body {
     font-family: sans-serif, Arial, Helvetica;
@@ -87,7 +87,7 @@ body {
 #tagline {
     padding: 5px;
     text-align: left;
-    color: #898974;
+    color: #43432c;
 }
 
 /* Button Container Styles*/
@@ -100,11 +100,11 @@ body {
 .button-container a {
     display: block;
     padding: 5px;
-    border: 5px ridge #898974;
+    border: 5px ridge #43432c;
     margin: 10px;
     font-size: 20px;
     background-color: #fff5ea;
-    color: #898974;
+    color: #43432c;
 }
 
 video {
