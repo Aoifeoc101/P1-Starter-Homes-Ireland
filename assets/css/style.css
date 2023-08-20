@@ -3,7 +3,9 @@ Main styles */
 * {
     margin: 0;
 }
-
+main {
+    padding: 5px;
+}
 .background-color {
     background-color: #dfd2c3;
 }
