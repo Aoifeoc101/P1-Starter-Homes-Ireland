@@ -11,18 +11,18 @@ main {
 }
 
 .heading1 {
-    color: #a79100;
+    color: #ddc41c;
     font-size: xx-large;
     padding: 10px;
     text-align: center;
 }
 .heading2 {
-    color: #a79100;
+    color: #ddc41c;
     font-size: x-large;
     padding: 7px;
 }
 .heading3 {
-    color: #a79100;
+    color: #ddc41c;
     font-size: large;
     padding: 4px;
     text-align: left;
@@ -130,10 +130,10 @@ footer div {
     height: 100%;
     width: 100%;
     padding: 20px;
-    color: #a79100;
+    color: #ddc41c;
 }
 
 footer div a {
-    color: #a79100;
+    color: #ddc41c;
     background-color: #43432c;
 }
