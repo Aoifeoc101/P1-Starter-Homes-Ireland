@@ -7,34 +7,31 @@ Main styles */
 .background-color {
     background-color: #dfd2c3;
 }
-
 .heading1 {
-    text-align: center;
     color: #ffff00;
     font-size: xx-large;
     padding: 10px;
-}
-
-.heading2 {
     text-align: center;
+}
+.heading2 {
     color: #ffff00;
     font-size: x-large;
     padding: 7px;
 }
-
 .heading3 {
-    text-align: center;
     color: #ffff00;
     font-size: large;
     padding: 4px;
+    text-align: left;
 }
-
 .text-center {
     text-align: center;
     color: #898974;
     padding: 10px;
 }
-
+.list-text {
+    color: #898974;
+}
 body {
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
@@ -88,6 +85,7 @@ body {
 #tagline {
     padding: 5px;
     text-align: left;
+    color: #898974;
 }
 
 /* Button Container Styles*/
