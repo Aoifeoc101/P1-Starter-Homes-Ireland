@@ -7,21 +7,21 @@ main {
     padding: 5px;
 }
 .background-color {
-    background-color: #dfd2c3;
+    background-color: #fff5ea;
 }
 .heading1 {
-    color: #ffff00;
+    color: #ddc41c;
     font-size: xx-large;
     padding: 10px;
     text-align: center;
 }
 .heading2 {
-    color: #ffff00;
+    color: #ddc41c;
     font-size: x-large;
     padding: 7px;
 }
 .heading3 {
-    color: #ffff00;
+    color: #ddc41c;
     font-size: large;
     padding: 4px;
     text-align: left;
