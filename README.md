@@ -109,6 +109,12 @@ I kept the footer very simple, I used a dark background colour and a link to the
 
 # Testing
 
+Testing successful on google chrome and microsoft edge browsers.
+
+Tested responsiveness initially based on the samsung fold as suggested by the videos in the LMS, I used the responsive settings to slide to different screen sizes to check that the content was still fully visable and it was successful.
+
+I had to use media queries for the images on all of the pages in order to fit them to mobile size.
+
 ## html
 
 ![w3c-html-screenshot](assets/images/w3c-html-screenshot.jpg)
