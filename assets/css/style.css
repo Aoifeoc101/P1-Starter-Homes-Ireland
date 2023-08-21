@@ -111,10 +111,10 @@ body {
 video {
     width: 100%
 }
-
-form {
-    flex-basis: auto;
-
+.form-container {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* Hidden*/
@@ -153,6 +153,14 @@ footer div a {
 
     #contact-img img {
         width: 800px;
+    }
+
+    .hammer {
+        display: flex;
+        justify-content: center;
+    }
+    .hammer > img {
+        width: 1000px;
     }
 }
 
