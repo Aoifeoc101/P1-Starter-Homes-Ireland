@@ -21,7 +21,7 @@ Welcome! [Project 1 Repository](https://github.com/Aoifeoc101/Project1)
 - I wanted people to be able to learn about the basics such as mortgage info for building and planning permission topics.
 - To be able to clearly understand the different types of builds.
 - To view one of our homes ie-bluebell.html and see the benefits of starting smaller and building bigger one day.
-- To be able to easily reach us using a contact form which would gather the minimal information needed for a opening call.
+- To be able to easily reach us using a contact form which would gather the minimal information needed for an opening call.
 
 ## Wireframe
 
@@ -45,23 +45,25 @@ To build my wireframe I used miro.
 
 I wanted to keep my homepage simple, a clear image of a warming background picture of keys into a home.
 
-I used neutral inviting colours which I thought would appal to my target audience.
+I used neutral inviting colours which I thought would appeal to my target audience.
 
 ![home-pg-screenshot](assets/images/home-pg-screenshot.jpg)
 
 ## Logo and tagline
 
-To create the logo I used paint, I coloured out everything except the heart symbol.
-I then added the tagline underneath to reference the "parent" company.
-I used flex to get this to stick to the top left of the page.
+- To create the logo I used paint, I coloured out everything except the heart symbol.
+- I then added the tagline underneath to reference the "parent" company.
+- I used flex to get this to stick to the top left of the page.
 
 ![1stlogo-Screenshot](assets/images/1stlogo-Screenshot.jpg)
 
 ## Navigation
 
+![nav-links-screenshot](assets/images/nav-links-screenshot.jpg)
+
 In the home page I added 3 seperate internal links;
 
-- The first link is to an informarion page, I clearly labelled it "Have no idea where to start? Click here!"
+- The first link is to an information page, I clearly labeled it "Have no idea where to start? Click here!"
 - The 2nd link leads to a page featuring one home-The Bluebell, this link is called "View homes starting from €100,000".
 - I decided to include just one home as opposed to including many and copying the same code.
 - The 3rd link is to my contact page titled "Get in touch today!"
@@ -81,7 +83,7 @@ To do this I used ordered lists and 3 different heading styles.
 
 The bluebell I included a video of the house. The original video was over 7 minutes long and had a quality of 1080p, however this file size was too big to run through github/ codeanywhere so I sliced the video down to 1 minute, sped the video up and also dropped the quality down to 720p in order for it to play.
 
-I set the video width to 100% and used the flex properties to enusre the sizing was not affected by changing screen size.
+I set the video width to 100% and used the flex properties to ensure the sizing was not affected by changing screen size.
 
 Below the video I gave some information on the house itself, I used headers and unordered lists to do this.
 
@@ -89,13 +91,13 @@ Below the video I gave some information on the house itself, I used headers and 
 
 ![form-screenshot](assets/images/form-screenshot.jpg)
 
-The contact form was one of the most crucial parts, in real life when we get enquiries into the heritage homes website some just say things like "how much is this house". These kind of questions with no context or information can be frustrating. In order to combat this on my project website I added multiple fields to ensure I was capturing the most crucial information and made the important ones required fields.
+The contact form was one of the most crucial parts, in real life when we get enquiries into the heritage homes website some just say things like "how much is this house". These kinds of questions with no context or information can be frustrating. In order to combat this on my project website I added multiple fields to ensure I was capturing the most crucial information and made the important ones required fields.
 
 I added a textarea field so people could then choose to give me additional information. I didn't make this field required as I didn't want to put people off who didn't want to go to the time of writing a message.
 
 ![form-qs-screenshot](assets/images/form-qs-screenshot.jpg)
 
-Once the from was submitted I wanted to ensure a clear message to the user:
+Once the form was submitted I wanted to ensure a clear message to the user:
 
 ![thank-you](assets/images/thank-you.jpg)
 
@@ -119,15 +121,17 @@ All code was checked and verified via w3c
 
 ## Fixed-Issues
 
-I had a few challenges with overriding css styles. For example I had a padding of 5px applied to the * main styles. This meant that my ordered lists were not displaying the numbers. To investigate this I used chrome developer tools to see what rule was stopping the numbers from displaying.
+- I had a few challenges with overriding css styles. For example I had a padding of 5px applied to the * main styles. This meant that my ordered lists were not displaying the numbers. To investigate this I used chrome developer tools to see what rule was stopping the numbers from displaying.
 
-Another issue was that display:block was applied to main, when this was applied none of my flex properties I was adding were working, again I used chrome developer tools to find what was stopping my flex styles from applying.
+- Another issue was that display:block was applied to main, when this was applied none of my flex properties I was adding were working, again I used chrome developer tools to find what was stopping my flex styles from applying.
 
-Another change I had to make was to the classes. I had been directly styling the elements which meant I had a lot of repeated code in my css file such as text-alignment and colours, I re-ordered my css as advised by my mentor which made it much easier to adjust the colours to meet the accessibilty score.
+- Another change I had to make was to the classes. I had been directly styling the elements which meant I had a lot of repeated code in my css file such as text-alignment and colours, I reordered my css as advised by my mentor which made it much easier to adjust the colours to meet the accessibility score.
+
+- Commits were not pushing to github so I had to get in touch with tutor support, they advised me to run git init which fixed the issue.
 
 ## Accessibility
 
-Below are the screenshots from lighthouse, getting accessibility to 100% was a difficiult tasks as I had to change all of my background, text and header colours to meet 100%. For this reason, my site looks different to the colours in my wireframe
+Below are the screenshots from lighthouse, getting accessibility to 100% was a difficult task as I had to change all of my background, text and header colours to meet 100%. For this reason, my site looks different to the colours in my wireframe
 
 ## index.html
 
@@ -145,9 +149,35 @@ Below are the screenshots from lighthouse, getting accessibility to 100% was a d
 
 ![lighthouse-form-screenshot](assets/images/lighthouse-form-screenshot.jpg)
 
+# Deployment
+
+## IDE
+
+- I added changes using add .
+- and commit -m,
+- I then typed git push to send the updates to github.
+- To view my changes live as I was making them I used the command python3 -m http.server and ran port 8000.
+
+I decided to deploy the website as early as possible, this way I was able to get feedback from my mentor throughout the project.
+
+## Github
+
+- Firstly going to GitHub Pages.
+- Under the repository I clicked on settings.
+- In the Code and automation section I selected click pages.
+- I then selected "Build and deployment" and selected deploy from a branch.
+- I selected the branch as main.
+- I clicked on the URL to view my website.
+- It took several minutes for the changes to publish after pushing changes to GitHub.
+
+- It was in my first deployment I noticed the issue with the video on bluebell.html.
+- In the ide on codeanywhere the 1080p video played without issue,
+- However upon deployment the video would not load.
+- It was at this point I reduced the quality of the video to 720p and used a video converter to add a webm version.
+
 # Credits
 
-Code Acedemy LMS. As I went through the material on the LMS I took examples of code and saved it in my notion. I've published this page to the web so it's visible.
+Code Academy LMS. As I went through the material on the LMS I took examples of code and saved it in my notion. I've published this page to the web so it's visible.
 
 [HTML & CSS Notion Page](https://rift-count-d53.notion.site/HTML-CSS-df8abe7f6d35455383e6f68dfcd5dc5c?pvs=4)
 
@@ -161,6 +191,8 @@ Code Acedemy LMS. As I went through the material on the LMS I took examples of c
 
 [Original Video from Heritage Homes](https://heritagehomes.ie/designs/the-bluebell/)
 
-[Content from bluebell.html](https://heritagehomes.ie/designs/the-bluebell/)
+[Content for bluebell.html](https://heritagehomes.ie/designs/the-bluebell/)
+
+[Content for info-page](https://chat.openai.com/)
 
 [Fonts from google fonts](https://fonts.google.com/)...
