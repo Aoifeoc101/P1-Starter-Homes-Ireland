@@ -9,6 +9,12 @@ My goal for this project was to create a website which catered to first time hom
 
 The idea is coming from a business my father is setting up called Heritage Homes Ireland. I wanted to make this website different and more suited towards younger first time buyers or builders. 
 
+## Wireframe
+
+To build my wireframe I used miro 
+
+<img src="assets/images/wireframe-screenshot.jpg">
+
 ## Homepage
 I wanted to keep my homepage simple, a clear image of a warming background picture of keys into a home.<br>
 I used neutral inviting colours which I thought would appal to my target audience.
@@ -91,7 +97,14 @@ Below are the screenshots from lighthouse, getting accessibility to 100% was a d
 
 <img src="assets/images/lighthouse-home-screenshot.jpg">
 
-## info-page
+## info-page.html
 
 <img src="assets/images/lighthouse-infopg-screenshot.jpg">
 
+## bluebell.html
+
+<img src="assets/images/lighthouse-bluebell-screenshot.jpg">
+
+## form.html
+
+<img src="assets/images/lighthouse-form-screenshot.jpg">
